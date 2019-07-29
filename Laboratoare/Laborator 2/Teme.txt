@@ -1,0 +1,6 @@
+Sa se duplice caracterele intr-un fisier astfel: 
+A1. vocalele
+A2. cifrele impare
+A3. literele mici
+A4. literele mari
+B. Sa afiseze a N-a coloana din passwd.txt pentru liniile care incep cu o vocala.

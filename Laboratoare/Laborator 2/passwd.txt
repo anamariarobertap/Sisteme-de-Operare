@@ -1,0 +1,261 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+vcsa:x:69:499:virtual console memory owner:/dev:/sbin/nologin
+avahi-autoipd:x:499:498:avahi-autoipd:/var/lib/avahi-autoipd:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/home/oprofile:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+dbus:x:81:497:System message bus:/:/sbin/nologin
+polkituser:x:87:496:PolicyKit:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+distcache:x:94:495:Distcache:/:/sbin/nologin
+pulse:x:498:493:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+avahi:x:497:488:avahi-daemon:/var/run/avahi-daemon:/sbin/nologin
+apache:x:48:487:Apache:/var/www:/sbin/nologin
+mailnull:x:47:486::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:485::/var/spool/mqueue:/sbin/nologin
+smolt:x:496:484:Smolt:/usr/share/smolt:/sbin/nologin
+sshd:x:74:483:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+webalizer:x:67:482:Webalizer:/var/www/usage:/sbin/nologin
+haldaemon:x:68:478:HAL daemon:/:/sbin/nologin
+squid:x:23:23::/var/spool/squid:/sbin/nologin
+gdm:x:42:477::/var/lib/gdm:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+mysql:x:27:476:MySQL Server:/var/lib/mysql:/bin/bash
+mregex:x:494:475:Regex Milter:/var/spool/milter-regex:/sbin/nologin
+dovecot:x:493:474:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+sa-milt:x:492:473:SpamAssassin Milter:/var/lib/spamass-milter:/sbin/nologin
+mailman:x:41:41:GNU Mailing List Manager:/usr/lib/mailman:/sbin/nologin
+florin:x:503:800:Florian Mircea BOIAN:/home/info/florin:/bin/bash
+kasa:x:510:700:Kasa Zoltan:/home/others/kasa:/bin/bash
+robu:x:9513:400:Robu Judit:/home/magh/robu:/bin/bash
+hfpop:x:515:800:Horia F. POP:/home/info/hfpop:/bin/bash
+motogna:x:518:800:Motogna Simona:/home/info/motogna:/bin/bash
+bparv:x:519:800:Bazil Parv:/home/info/bparv:/bin/bash
+ivarga:x:520:400:Varga Viorica:/home/magh/ivarga:/bin/bash
+lupea:x:521:800:Lupea Mihaiela:/home/info/lupea:/bin/bash
+leon:x:523:800:Leon Tambulea:/home/info/leon:/bin/bash
+vancea:x:524:800:Vancea Alexandru:/home/info/vancea:/bin/bash
+dtatar:x:528:700:Doina Tatar:/home/others/dtatar:/bin/bash
+chiorean:x:531:800:Dan Chiorean:/home/info/chiorean:/bin/bash
+pablaga:x:535:500:Paul A. BLAGA:/home/mate/pablaga:/bin/bash
+csvarga:x:537:400:Varga Csaba:/home/magh/csvarga:/bin/bash
+ilazar:x:538:800:Ioan LAZAR:/home/info/ilazar:/bin/bash
+ddumitr:x:542:800:D. Dumitrescu:/home/info/ddumitr:/bin/bash
+mfrentiu:x:540:800:Militon Frentiu:/home/info/mfrentiu:/bin/bash
+ecatinas:x:545:700:Emil CATINAS:/home/others/ecatinas:/bin/bash
+toadere:x:548:800:Teodor TOADERE:/home/info/toadere:/bin/bash
+moldovan:x:549:800:Grigor MOLDOVAN:/home/info/moldovan:/bin/bash
+ioana:x:551:500:Ioana CHIOREAN:/home/mate/ioana:/bin/bash
+darvay:x:560:400:Zsolt Darvay:/home/magh/darvay:/bin/bash
+pblaga:x:561:500:Petru BLAGA:/home/mate/pblaga:/bin/bash
+per:x:572:800:Vasile PREJMEREAN:/home/info/per:/bin/bash
+tzutzu:x:579:800:Dan SUCIU:/home/info/tzutzu:/bin/bash
+vcioban:x:556:800:Vasile CIOBAN:/home/info/vcioban:/bin/bash
+studia-i:x:571:700:Studia Informatica:/home/others/studia-i:/bin/bash
+dadi:x:2015:800:Sergiu Adrian DARABANT:/home/info/dadi:/bin/bash
+rares:x:584:800:Rares Florin BOIAN:/home/info/rares:/bin/bash
+pasca:x:916:900:Gabi PASCA:/home/tech/pasca:/bin/bash
+alina:x:919:800:Alina CAMPAN:/home/info/alina:/bin/bash
+jrobu:x:932:700:Judit ROBU:/home/others/jrobu:/bin/bash
+gabis:x:943:800:Gabriela (SERBAN) CZIBULA:/home/info/gabis:/bin/bash
+csz:x:10029:700:Csornyei Zoltan:/home/others/csz:/bin/bash
+clara:x:10034:700:Clara IONESCU:/home/others/clara:/bin/bash
+gabitr:x:10036:800:Maria Gabriela TRIMBITAS:/home/info/gabitr:/bin/bash
+forest:x:10045:10:Sterca Adrian Ioan (Albanezu ;):/home/admin/forest:/bin/bash
+rlupsa:x:10051:800:Radu-Lucian LUPSA:/home/info/rlupsa:/bin/bash
+dana:x:10053:800:Dana Avram Lupsa:/home/info/dana:/bin/bash
+dan:x:10055:10:Dan Cojocar:/home/admin/dan:/bin/csh
+moltean:x:10068:800:Mihai Oltean:/home/info/moltean:/bin/bash
+bufny:x:10070:10:Darius BUFNEA:/home/admin/bufny:/bin/bash
+grigo:x:10080:800:Cojocar (Moldovan) Grigoreta Sofia:/home/info/grigo:/bin/bash
+cgrosan:x:10086:800:Crina Grosan:/home/info/cgrosan:/bin/bash
+sanda:x:1118:800:Sanda Dragos:/home/info/sanda:/bin/bash
+laura:x:10096:400:Ruff Laura:/home/magh/laura:/bin/bash
+anca:x:10101:800:Anca Andreica:/home/info/anca:/bin/bash
+deiush:x:10102:800:Andreea Navroschi:/home/info/deiush:/bin/bash
+petrascu:x:10103:800:Dragos Petrascu:/home/info/petrascu:/bin/bash
+paul:x:10106:900:Paul Lucian Szasz:/home/tech/paul:/bin/bash
+adriana:x:10111:800:Adriana Guran (Tarta):/home/info/adriana:/bin/bash
+cretu:x:10112:800:Camelia Cretu:/home/info/cretu:/bin/bash
+claudiu:x:10123:800:Claudiu Cobarzan:/home/info/claudiu:/bin/bash
+janko:x:10125:200:Zeng Ioan:/home/drdinfo/janko:/bin/bash
+istvanc:x:10127:800:Istvan CZIBULA:/home/info/istvanc:/bin/bash
+bittologatok:x:10130:700:BitManipulators:/home/others/bittologatok:/bin/bash
+mihis:x:10131:800:Andreea Diana MIHIS:/home/info/mihis:/bin/bash
+cristina.mihaila:x:10132:800:Cristina Aneta Mihaila:/home/info/cristina.mihaila:/bin/bash
+horea:x:10133:800:Horea GREBLA:/home/info/horea:/bin/bash
+vniculescu:x:10136:800:Virginia NICULESCU:/home/info/vniculescu:/bin/bash
+ecdl:x:10137:700:European Computer Driving Licence:/home/others/ecdl:/bin/bash
+vladi:x:10139:800:Vladiela Petrascu:/home/info/vladi:/bin/bash
+costa:x:10144:800:Ciprian Costa:/home/info/costa:/bin/bash
+dstuparu:x:10145:200:Daniel Stuparu:/home/drdinfo/dstuparu:/bin/bash
+ksimon:x:10147:400:Karoly SIMON:/home/magh/ksimon:/bin/bash
+radu.dragos:x:10150:10:Radu Dragos:/home/admin/radu.dragos:/bin/bash
+microsoft:x:10152:700::/home/others/microsoft:/bin/bash
+webmaster:x:10153:902:Webmaster:/home/admin/webmaster:/bin/bash
+studia-m:x:10155:700:Studia Mathematica:/home/others/studia-m:/bin/bash
+lauras:x:10161:800:Laura Diosan (Sas):/home/info/lauras:/bin/bash
+avescan:x:10162:800:Andreea Vescan:/home/info/avescan:/bin/bash
+camelia:x:10163:800:Camelia SERBAN:/home/info/camelia:/bin/bash
+map:x:10165:700:Microsoft Academic Program:/home/others/map:/bin/false
+mi1975:x:10166:700:Promotia Matematica Informatica 1975:/home/others/mi1975:/bin/bash
+orar:x:10169:100::/home/others/orar:/bin/bash
+darius:x:10173:100::/home/others/darius:/bin/bash
+csatol:x:10174:400:Lehel Csato:/home/magh/csatol:/bin/bash
+liliana.pop:x:10175:100:Liliana POP:/home/secretariat/liliana.pop:/bin/bash
+mate19952005:x:10177:700::/home/others/mate19952005:/bin/bash
+naat2006:x:10178:700::/home/others/naat2006:/bin/bash
+simona:x:10179:700:Simona Zbanca:/home/others/simona:/bin/bash
+amarcus:x:10181:700:Andrian Marcus:/home/others/amarcus:/bin/bash
+tiberiu:x:10183:800:Tiberiu Ban:/home/info/tiberiu:/bin/bash
+cmpintea:x:10186:200:Camelia Mihaela Pintea:/home/drdinfo/cmpintea:/bin/bash
+minier:x:10191:700:Minier Zsolt:/home/others/minier:/bin/bash
+cchira:x:10192:200:Camelia Chira:/home/drdinfo/cchira:/bin/bash
+zbodo:x:10193:400:Bodo Zalan:/home/magh/zbodo:/bin/bash
+gb:x:10195:100:Gavril BALEA:/home/admin/gb:/bin/bash
+lbarabas:x:10199:700:Laszlo Barabas:/home/others/lbarabas:/bin/bash
+ijcir:x:10201:700:International Journal of Computational Intelligence Research (Crina Grosan):/home/others/ijcir:/bin/bash
+cefp2007:x:10203:700:Central European Functional Programming School:/home/others/cefp2007:/bin/bash
+patcas:x:10205:400:Patcas Csaba:/home/magh/patcas:/bin/bash
+egriedit:x:10207:400:EGRI Edit:/home/magh/egriedit:/bin/bash
+szanto:x:10209:400:Szanto Csaba Lehel:/home/magh/szanto:/bin/bash
+asoos:x:10210:400:SOOS Anna:/home/magh/asoos:/bin/bash
+oanamuntean:x:10211:200:Oana Muntean:/home/drdinfo/oanamuntean:/bin/bash
+mandiana:x:10212:200:Diana Man:/home/drdinfo/mandiana:/bin/bash
+cirg:x:10214:700::/home/others/cirg:/bin/bash
+Idei.ComPar:x:10215:700::/home/others/Idei.ComPar:/bin/bash
+natcomp:x:10217:100:Natural Computing Models:/home/others/natcomp:/bin/bash
+macs:x:10218:100:Joint Conference on Mathematics and Computer Science:/home/others/macs:/bin/bash
+erzsebet:x:10219:100:Giurgiu Elisabeta:/home/secretariat/erzsebet:/bin/bash
+dept:x:10220:800:Departamentul de Informatica:/home/info/dept:/bin/bash
+gansca:x:10222:900:Gansca Gheorghe:/home/tech/gansca:/bin/bash
+csubb:x:10224:700:Contract Capacitati CSUBB:/home/others/csubb:/bin/bash
+coldea:x:10227:100:Coldea Gafia:/home/secretariat/coldea:/bin/bash
+bal:x:10228:100:Bal Elvira:/home/secretariat/bal:/bin/bash
+csi:x:10231:100:Computer Science Institute:/home/others/csi:/bin/bash
+andrasz:x:10232:400:Andras Szilard:/home/magh/andrasz:/bin/bash
+ionut:x:10233:200:Ioan DANCIU:/home/drdinfo/ionut:/bin/bash
+jakabh:x:10236:300:Jakab Hunor:/home/drdmagh/jakabh:/bin/bash
+gaskonomi:x:10237:400:Gasko Noemi:/home/magh/gaskonomi:/bin/bash
+sabina:x:10240:800:Sabina Surdu:/home/info/sabina:/bin/bash
+abartha:x:10241:200:Bartha Attila:/home/drdinfo/abartha:/bin/bash
+arthur:x:10242:200:Molnar Arthur:/home/drdinfo/arthur:/bin/bash
+horatiu:x:10243:200:Paul-Horatiu Stan:/home/drdinfo/horatiu:/bin/bash
+practica:x:10245:100:Practica de Vara la Facultate:/home/others/practica:/bin/bash
+raoss:x:10246:700:Grant Gabriela Czibula:/home/others/raoss:/bin/bash
+rgaceanu:x:10247:800:Radu GACEANU:/home/info/rgaceanu:/bin/bash
+petrusel:x:10248:500:Adrian PETRUSEL:/home/mate/petrusel:/bin/bash
+mihoct:x:10249:800:Tudor MIHOC:/home/info/mihoct:/bin/bash
+vcraciun:x:10250:200:Voichita-Ioana CRACIUN:/home/drdinfo/vcraciun:/bin/bash
+alibal:x:10251:400:Andras LIBAL:/home/magh/alibal:/bin/bash
+bea:x:10252:200:Jancso Beata:/home/drdinfo/bea:/bin/bash
+cdan:x:10253:200:Ciupeiu Dan:/home/drdinfo/cdan:/bin/bash
+ivpop:x:10255:200:Pop Ionel-Virgil:/home/drdinfo/ivpop:/bin/bash
+reka:x:10256:400:Nagy Reka:/home/magh/reka:/bin/bash
+lavinia.pop:x:10257:200:Lavinia Pop:/home/drdinfo/lavinia.pop:/bin/bash
+thorea:x:10258:200:Horea Ioan Trinca:/home/drdinfo/thorea:/bin/bash
+csacarea:x:10259:800:Christian Sacarea:/home/info/csacarea:/bin/bash
+bboti:x:10260:400:Botond Bocsi:/home/magh/bboti:/bin/bash
+gcm10:x:10263:700::/home/others/gcm10:/bin/bash
+blajovici:x:10264:200:Blajovici B. Corina:/home/drdinfo/blajovici:/bin/bash
+fptac:x:10265:700::/home/others/fptac:/bin/bash
+icnodeacj:x:10266:100::/home/others/icnodeacj:/bin/bash
+bulboaca:x:10268:400:Teodor Bulboaca:/home/magh/bulboaca:/bin/bash
+craciunf:x:10269:800:Craciun Florin:/home/info/craciunf:/bin/bash
+ramona:x:10270:200:Ramona Stoica:/home/drdinfo/ramona:/bin/bash
+oserban:x:10271:200:Serban Ovidiu:/home/drdinfo/oserban:/bin/bash
+amiron:x:10272:200:Alina Miron:/home/drdinfo/amiron:/bin/bash
+denis:x:10273:200:Denis Salanta:/home/drdinfo/denis:/bin/bash
+liviu:x:10274:200:Stirb Liviu:/home/drdinfo/liviu:/bin/bash
+afra:x:10275:400:Afra Attila:/home/magh/afra:/bin/bash
+peterke:x:10276:300:Szilagyi Peter:/home/drdmagh/peterke:/bin/bash
+lci:x:10277:100:Laboratorul de Cercetare in Informatica:/home/others/lci:/bin/bash
+fca:x:10278:100::/home/others/fca:/bin/bash
+iuliana:x:10279:800:Iuliana BOCICOR:/home/info/iuliana:/bin/bash
+te320:x:10281:700::/home/others/te320:/bin/bash
+tarthur:x:10282:700:Arthur Tunyagi:/home/others/tarthur:/bin/bash
+cgalchis:x:10283:200:Gal-Chis Calin Eugen Nicolae:/home/drdinfo/cgalchis:/bin/bash
+mihai-suciu:x:10284:800:Suciu Mihai-Alexandru:/home/info/mihai-suciu:/bin/bash
+dia:x:10285:200:Dia Miron:/home/drdinfo/dia:/bin/bash
+airoth:x:10286:400:Roth Agoston-Istvan:/home/magh/airoth:/bin/bash
+tompa:x:10287:900:Tompa Lorand-Mihaly:/home/drdmagh/tompa:/bin/bash
+gfta2011:x:10288:700:International Symposium on Geometric Function Theory and Applications:/home/others/gfta2011:/bin/bash
+foresttemp:x:10289:700:Cont temporar pt Forest:/home/others/foresttemp:/bin/bash
+marianzsu:x:10290:800:Marian Zsuzsanna:/home/info/marianzsu:/bin/bash
+clamav:x:490:298:Clam Anti Virus Checker:/var/clamav:/sbin/nologin
+ionutb:x:10293:200:Ioan Badarinza:/home/drdinfo/ionutb:/bin/bash
+eurolan2005:x:10294:700::/home/others/eurolan2005:/bin/bash
+geogebra:x:10296:700::/home/others/geogebra:/bin/bash
+admitere:x:10297:700:Comisia de Admitere a Facultatii de Matematica si Informatica - UBB:/home/others/admitere:/bin/bash
+icamp2013:x:10298:100::/home/others/icamp2013:/bin/bash
+mserban:x:10299:500:Marcel SERBAN:/home/mate/mserban:/bin/bash
+tgrosan:x:10300:500:Teodor GROSAN:/home/mate/tgrosan:/bin/bash
+tcatinas:x:10301:500:Teodora CATINAS:/home/mate/tcatinas:/bin/bash
+istvan.szollosi:x:10302:400:Istvan Szollosi:/home/magh/istvan.szollosi:/bin/bash
+ilkovacs:x:10303:400:Ildiko SOMOGYI:/home/magh/ilkovacs:/bin/bash
+diana.zoicas:x:10305:200:Diana ZOICAS:/home/drdinfo/diana.zoicas:/bin/bash
+adam:x:10306:200:Gergely Adam Mihai:/home/drdinfo/adam:/bin/bash
+popb:x:10307:200:Pop Bogdan:/home/drdinfo/popb:/bin/bash
+gglodean:x:10308:200:Gabriel Glodean:/home/drdinfo/gglodean:/bin/bash
+adela:x:10309:200:Adela RUS:/home/drdinfo/adela:/bin/bash
+attila.zolde:x:10310:200:Attila Zolde:/home/drdinfo/attila.zolde:/bin/bash
+grupanopt:x:10311:700:Grupul de Cercetare Analiza si Optimizare:/home/others/grupanopt:/bin/bash
+tako:x:10312:300:Tako Istvan:/home/drdmagh/tako:/bin/bash
+lucia2007:x:10315:200:Bitcovschi Lucia:/home/drdinfo/lucia2007:/bin/bash
+smcv:x:10316:700:Simulation Modeling Control and Visualization:/home/others/smcv:/bin/bash
+lorand:x:10317:900:Parajdi Lorand:/home/tech/lorand:/bin/bash
+da:x:10318:100:Data Analysis Research Group:/home/others/da:/bin/bash
+depmim:x:10319:100:Departamentul de Matematica si Informatica al Liniei Maghiare:/home/others/depmim:/bin/bash
+ica:x:10321:100:Applied Computational Intelligence Research Group:/home/others/ica:/bin/bash
+aneag:x:10322:510:Neag Andrei:/home/drdmate/aneag:/bin/bash
+rusu:x:10323:800:Catalin Rusu:/home/info/rusu:/bin/bash
+icfca14:x:10324:700:International Conference on Formal Concept Analysis:/home/others/icfca14:/bin/bash
+bmonica:x:10325:500:Monica BOTA:/home/mate/bmonica:/bin/bash
+hanne:x:10326:500:Hannelore LISEI:/home/mate/hanne:/bin/bash
+ltopan:x:10327:500:Liana TOPAN:/home/mate/ltopan:/bin/bash
+ttrif:x:10328:500:Tiberiu TRIF:/home/mate/ttrif:/bin/bash
+dianat:x:10329:200:Diana Troanca:/home/drdinfo/dianat:/bin/bash
+adrianac:x:10330:200:Coroiu Adriana:/home/drdinfo/adrianac:/bin/bash
+ade:x:10331:510:Adela Lupescu:/home/drdmate/ade:/bin/bash
+szenkovitsa:x:10332:200:Szenkovits Annamaria,,,mc:/home/drdinfo/szenkovitsa:/bin/bash
+mircea:x:10333:200:Ioan-Gabriel Mircea:/home/drdinfo/mircea:/bin/bash
+rimi:x:10334:200:Rimovicz Mihai:/home/drdinfo/rimi:/bin/bash
+kisst:x:10335:200:Kiss Tibor:/home/drdinfo/kisst:/bin/bash
+se:x:10336:700:Software Engineering Research Group:/home/others/se:/bin/bash
+hossam.zawbaa:x:10337:200:Hossam M. ZAWBAA:/home/drdinfo/hossam.zawbaa:/bin/bash
+hmtm:x:10338:700:History of Mathematics & Teaching of Mathematics:/home/others/hmtm:/bin/bash
+lcimuca:x:10339:100:Luminita Cimuca,,5254:/home/secretariat/lcimuca:/bin/bash
+gcsc:x:10340:700::/home/others/gcsc:/bin/bash
+kept:x:10341:700:Knowledge Engineering Principles and Techniques Conference:/home/others/kept:/bin/bash
+brigitte:x:10342:500:BRECKNER Brigitte:/home/mate/brigitte:/bin/bash
+cereri.studenti:x:10343:700::/home/others/cereri.studenti:/bin/bash
+diana.halita:x:10344:200:Diana HALITA:/home/drdinfo/diana.halita:/bin/bash
+emilb:x:10345:200:Emil Bucur:/home/drdinfo/emilb:/bin/bash
+danutpop:x:10346:200:Danut Pop:/home/drdinfo/danutpop:/bin/bash
+rillrobert:x:10347:200:Rill Robert-Adrian:/home/drdinfo/rillrobert:/bin/bash
+tirban:x:10348:200:Paul Tirban:/home/drdinfo/tirban:/bin/bash
+alinacalin:x:10349:200:Alina CALIN:/home/drdinfo/alinacalin:/bin/bash
+raul:x:10350:200:Raul TOSA:/home/drdinfo/raul:/bin/bash
+daniel:x:10351:200:Daniel TICLE:/home/drdinfo/daniel:/bin/bash
+ivlad:x:10352:200:Ionescu Vlad:/home/drdinfo/ivlad:/bin/bash
+pisak.lukats:x:10353:200:Janos Pisak-Lukats:/home/drdinfo/pisak.lukats:/bin/bash
+botaflorentin:x:10354:200:Bota Florentin:/home/drdinfo/botaflorentin:/bin/bash
+dovenull:x:489:296:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+oliver.skroch:x:10355:700:Oliver Skroch:/home/others/oliver.skroch:/bin/bash
+examen_asc_2015:x:10356:700:Alexandru Vancea:/home/others/examen_asc_2015:/bin/bash
+oana:x:10357:800:Ioana CIUCIU:/home/info/oana:/bin/bash
+molnar:x:10358:400::/home/magh/molnar:/bin/bash
